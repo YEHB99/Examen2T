@@ -1,0 +1,90 @@
+@font-face {
+    font-family: face;
+    src: url(fuente/RETROTECH.ttf);
+}
+
+
+.body {
+    height: 100%; 
+    background-size: cover;
+    background-image: url("../img/fondoretro.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.texto {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-size: 52px; 
+    margin-top: -5px;
+    font-family: "face"; 
+}
+
+
+.tabla {
+    background-color: rgb(62, 59, 59);
+    border: 10px groove RGB(237, 175, 5);
+    border-radius: 10px;
+}
+
+.celda_titulo {
+    background-color: black;
+    border: 5px solid black;
+    font-family: "retro";
+    border-bottom-color: White;
+}
+
+
+
+.titulo {
+    color: red;
+    font-size: 40px;
+}
+
+.sub_titulo {
+    color: white;
+    font-size: 32px;
+}
+
+.celda {
+    height: 40px;
+    width: 80px;
+    border: 1px outset grey;
+    border-radius: 2px;
+}
+
+.celdas_grandes{
+    height: 40px;
+    width: 640px;
+}
+
+.gris {
+    background-color: rgb(62, 59, 59);
+}
+
+.rojo {
+    background-color: rgb(239, 5, 5);
+}
+
+.amarillo {
+    background-color: rgb(239, 216, 5);
+}
+
+.azul {
+    background-color: blue;
+}
+
+.rosa {
+    background-color: violet;
+}
+
+.verde {
+    background-color: green;
+}
+
+.celda_vacia {
+    background-color: rgb(62, 59, 59);
+}
